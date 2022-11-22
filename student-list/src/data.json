@@ -1,15 +1,18 @@
 [
     {
-      "name": "Henry",
-      "phone": "035xxxxxxx",
-      "email": "henry.ph@boostcommerce.net"
+        "id": 1,
+        "name": "Henry",
+        "phone": "035xxxxxxx",
+        "email": "henry.ph@boostcommerce.net"
     },
     {
+        "id": 2,
         "name": "Stephen",
         "phone": "0904xxxxxx",
         "email": "stephen@boostcommerce.net"
     },
     {
+        "id": 3,
         "name": "Jayson",
         "phone": "",
         "email": "jayson@boostcommerce.net"

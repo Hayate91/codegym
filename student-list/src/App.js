@@ -11,14 +11,14 @@ import StudentList from './component/StudentList';
 import data from './data.json';
 
 function App() {
-  const [ studentListData, setStudentList ] = useState(data);
+  const [ studentListData, setStudents ] = useState(data);
 
-  return (
+  return (  
     <div className="App text-start">
       <Header />
-      <StudentForm />
+      <StudentForm studentListData={studentListData} setStudents={setStudents} />
 
-      <StudentList studentList={studentListData} />
+      <StudentList studentListData={studentListData} setStudents={setStudents} />
     </div>
   );
 }
